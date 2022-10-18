@@ -1,0 +1,31 @@
+html{
+  color:white;
+  background-color:black;
+}
+
+#nav{
+  display: none;
+  background-color: #2e2e2e;
+  float: left;
+  height: 100%;
+  margin-right:10px;
+  max-width:200px;
+}
+
+#nav .navButton:hover{
+  border-color:#f77605;
+  border-width:5px;
+}
+
+#nav .navButton{
+  height:50px;
+  width:180px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+}
+
+.inventory_icon{
+  width:75px;
+  height:75px;
+}

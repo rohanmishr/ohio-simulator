@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://gitcdn.link/cdn/rohanmishr/ohio-simulator/main/style.css">
+  </head>
+  <body>
+    <!-- sidebar !-->
+    <div id="nav">
+      <button class="navButton" id="dash" onclick="navDashboard()">Dashboard</button>
+      <button class="navButton" id="sh" onclick="navShop()">Shop</button>
+      <button class="navButton" id="inv" onclick="navInventory()">Inventory</button>
+      <button class="navButton" id="asc" onclick="navAscend()">Ascend</button>
+    </div>
+
+    <button onclick="toggleNav()">Menu</button>
+
+    <div id="dashboard">
+      <h1>Dashboard</h1>
+      <h3 id="display_money">Money: </h3>
+      <h3 id="display_income">Income: </h3>
+      <h3 id="display_territories">Territories conquered: x/196</h3>
+    </div>
+
+    <div id="shop">
+      <h1>Shop</h1>
+    </div>
+
+    <div id="inventory">
+      <h1>Inventory</h1>
+    </div>
+
+    <div id="ascend">
+      <h1>Ascend</h1>
+    </div>
+  </body>
+  <script src="https://gitcdn.link/cdn/rohanmishr/ohio-simulator/main/script.js"></script>
+</html>
