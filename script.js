@@ -82,6 +82,8 @@ var exItem = new item("Example Item", "An example item description.", "uncommon"
 
 //INVENTORY HANDLER
 inventory.push(exItem);
+inventory.push(exWeapon);
+
 function inventoryTick(){
   $("#inventory").empty();
   for (var i = 0; i<inventory.length; i++){
@@ -102,6 +104,7 @@ setInterval(function(){
 
 //GAME LOOP
 setInterval(function(){
+  inventoryTick();
   if(tab=="dash"){
     $("#dashboard").css("display", "block");
   }else{
